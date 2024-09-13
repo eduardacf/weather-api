@@ -48,10 +48,10 @@ A Weather API é uma aplicação backend robusta e escalável que fornece previs
 3\. Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:   
 
 ```plaintext
-   MONGO_URI=mongodb+srv://<usuario>:<senha>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
-   JWT_SECRET=sua_chave_secreta_jwt
-   WEATHER_API_KEY=sua_chave_api_openweathermap
-   PORT=5000
+MONGO_URI=mongodb+srv://<usuario>:<senha>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+JWT_SECRET=sua_chave_secreta_jwt
+WEATHER_API_KEY=sua_chave_api_openweathermap
+PORT=5000
 ```
 
 4\. Inicie o servidor Redis:   
